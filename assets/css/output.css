@@ -3086,6 +3086,11 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/03\/events-solution\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/03/events-solution.jpg');
 }
@@ -4617,6 +4622,16 @@ input:checked + .toggle-bg {
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark\:placeholder-gray-400:is(.dark *)::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-placeholder-opacity));
+}
+
+.dark\:placeholder-gray-400:is(.dark *)::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-placeholder-opacity));
 }
 
 .dark\:hover\:bg-blue-700:hover:is(.dark *) {
