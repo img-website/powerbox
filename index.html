@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Techled- High-Quality LED Video Walls</title>
   <link rel="stylesheet" href="./assets/css/output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <link href="path/to/lightbox.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body class="bg-[#fafafa]">
@@ -141,10 +143,79 @@
         <div class="col-span-12 sm:col-span-6">
           <div class="bg-white p-7 shadow-sm">
             <div class="text-[1.6rem] font-bold mb-2">A Free Consultation</div>
-            <div class="text-base text-theme3">Contact us with any questions or inquiries. We would be happy to answer your questions.</div>
+            <div class="text-base text-theme3 mb-3">Contact us with any questions or inquiries. We would be happy to answer your questions.</div>
             <div>
-              <label for="">Name</label>
-              <input type="text">
+              <label class="text-md font-bold text-black block mb-2" for="">Name</label>
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+            </div>
+            <div class="my-4">
+              <label class="text-md font-bold text-black block mb-2" for="">E-mail</label>
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+            </div>
+            <div class="my-4">
+              <label class="text-md font-bold text-black block mb-2" for="">Phone Number</label>
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+            </div>
+            <div class="my-4">
+              <label class="text-md font-bold text-black block mb-2" for="">Company - Institution</label>
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+            </div>
+            <div class="my-4">
+              <label class="text-md font-bold text-black block mb-2" for="">Type of business</label>
+                  <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
+                    <option selected>--Please choose an option--</option>
+                    <option value="US">House of worship</option>
+                    <option value="CA">Event show LED display</option>
+                    <option value="FR">Shopping Mall</option>
+                    <option value="DE">Airports & transportation facilities</option>
+                    <option value="DE">Outdoor LED display</option>
+                    <option value="DE">Virtual Production</option>
+                    <option value="DE">Nightclubs and Bars</option>
+                    <option value="DE">TV Studio - Broadcast</option>
+                  </select>
+            </div>
+            <div class="my-4">
+              <label class="text-md font-bold text-black block mb-2" for="">Location project </label>
+                  <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
+                    <option selected>--Please choose an option--</option>
+                    <option value="US">Alabama</option>
+                    <option value="CA">Alaska</option>
+                    <option value="FR">Arizona</option>
+                    <option value="DE">Arkansas</option>
+                    <option value="DE">California</option>
+                    <option value="DE">Colorado</option>
+                    <option value="DE">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DE">Florida</option>
+                    <option value="DE">Georgia</option>
+                    <option value="DE">Idaho</option>
+                    <option value="DE">Hawaii</option>
+                    <option value="DE">Illinois</option>
+                    <option value="DE">Indiana</option>
+                    <option value="DE">Kansas</option>
+                    <option value="DE">Kentucky</option>
+                    <option value="DE">Louisiana</option>
+                    <option value="DE">Maine</option>
+                    <option value="DE">Maryland</option>
+                    <option value="DE">Massachusetts</option>
+                    <option value="DE">Michigan</option>
+                    <option value="DE">Minnesota</option>
+                    <option value="DE">Mississippi</option>
+                    <option value="DE">Missouri</option>
+                    <option value="DE">Montana</option>
+                    <option value="DE">Nebraska</option>
+                    <option value="DE">Nevada</option>
+                    <option value="DE">New Hampshire</option>
+                    <option value="DE">New Jersey</option>
+                  </select>
+            </div>
+            <div class="my-4">
+              <label class="text-md font-bold text-black block mb-2" for="">Message</label>
+                <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 focus:shadow border border-gray-200 focus:ring-gray-200 focus:border-gray-200" placeholder="Write your thoughts here...">
+                </textarea>
+            </div>
+            <div class="my-4">
+              <button class="bg-theme1 text-md font-bold text-white px-4 py-2 hover:brightness-50 transition duration-150 ease-out">SUBMIT</button>
             </div>
           </div>
         </div>
@@ -152,6 +223,115 @@
     </div>
   <!-- free consultation ends -->
 
+  <!-- wall benefits start -->
+    <div class="container py-8">
+      <div class="xl:text-[1.7em] lg:text-3xl md:text-3xl text-2xl font-extrabold text-black text-center mb-[0.5em]">LED WALL: BENEFITS</div>
+      <div class="text-md font-semibold text-gray-400 text-center mb-12 tracking-[1px]">Create a unique enviroment and <span class="text-[#0378f6]">update your place</span> with techled</div>
+      <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-8 gap-4">
+        <div class="shadow bg-white">
+          <div class="w-full h-[287.938px]">
+            <img class="size-full object-contain sm:object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/05/2_year_warranty-1.png.webp" alt="">
+          </div>
+        </div>
+        <div class="shadow bg-white">
+          <div class="w-full h-[287.938px]">
+            <img class="size-full object-contain sm:object-cover" src="https://techledwall.com/wp-content/uploads/2021/03/financing.png" alt="">
+          </div>
+        </div>
+        <div class="shadow bg-white">
+          <div class="w-full h-[287.938px]">
+            <img class="size-full object-contain sm:object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2022/04/technical-support-1.png.webp" alt="">
+          </div>
+        </div>
+        <div class="shadow bg-white">
+          <div class="w-full h-[287.938px]">
+            <img class="size-full object-contain sm:object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/usa-company.png.webp" alt="">
+          </div>
+        </div>
+        <div class="shadow bg-white">
+          <div class="w-full h-[287.938px]">
+            <img class="size-full object-contain sm:object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/turn-key-ledscreen.png.webp" alt="">
+          </div>
+        </div>
+        <div class="shadow bg-white">
+          <div class="w-full h-[287.938px]">
+            <img class="size-full object-contain sm:object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/in-stock.png.webp" alt="">
+          </div>
+        </div>
+        <div>
+
+        </div>
+        <div></div>
+      </div>
+    </div>
+  <!-- wall benefits end -->
+
+  <!--techled vedio start -->
+  <div class="container py-8">
+    <div class="xl:text-[1.7em] lg:text-3xl md:text-3xl text-2xl font-extrabold text-black text-center mb-[0.5em]">TECHLED – LED VIDEO WALL FOR:</div>
+    <!-- <div class="text-md font-semibold text-gray-400 text-center mb-12 tracking-[1px]">Create a unique enviroment and <span class="text-[#0378f6]">update your place</span> with techled</div> -->
+    <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-8 gap-4 pt-8">
+        <a href="" class="overflow-hidden group">
+          <div class="w-full h-auto relative z-10"><img class="group-hover:scale-150 duration-1000 transition ease-in-out object-cover size-full" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/01/Churches.jpg.webp" alt="">
+            <div class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 w-full text-center text-white text-[1.6em] font-extrabold z-30 px-[1.5em] hover:text-theme1 transition hover:scale-110 duration-1000 ease-in-out">CHURCH HOUSE OF WORSHIP</div>
+            <div class="absolute top-0 left-0 size-full bg-black/60 z-20"></div>
+          </div>
+        </a>
+        <a href="" class="overflow-hidden group">
+          <div class="w-full h-auto relative z-10"><img class="group-hover:scale-150 duration-1000 transition ease-in-out object-cover size-full" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/01/Amazon.jpg.webp" alt="">
+            <div class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 w-full text-center text-white text-[1.6em] font-extrabold z-30 px-[1.5em] hover:text-theme1 transition hover:scale-110 duration-1000 ease-in-out">SHOPPING <br>RETAIL <br>STORE</div>
+            <div class="absolute top-0 left-0 size-full bg-black/60 z-20"></div>
+          </div>
+        </a>
+        <a href="" class="overflow-hidden group">
+          <div class="w-full h-auto relative z-10"><img class="group-hover:scale-150 duration-1000 transition ease-in-out object-cover size-full" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/01/TVStudio.jpg.webp" alt="">
+            <div class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 w-full text-center text-white text-[1.6em] font-extrabold z-30 px-[1.5em] hover:text-theme1 transition hover:scale-110 duration-1000 ease-in-out">TV STUDIO <br>BROADCAST <br>VIRTUAL<br>PRODUCTION</div>
+            <div class="absolute top-0 left-0 size-full bg-black/60 z-20"></div>
+          </div>
+        </a>
+        <a href="" class="overflow-hidden group">
+          <div class="w-full h-auto relative z-10"><img class="group-hover:scale-150 duration-1000 transition ease-in-out object-cover size-full" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/01/TVStudio.jpg.webp" alt="">
+            <div class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 w-full text-center text-white text-[1.6em] font-extrabold z-30 px-[1.5em] hover:text-theme1 transition hover:scale-110 duration-1000 ease-in-out">BAR <br>RESTAURANT</div>
+            <div class="absolute top-0 left-0 size-full bg-black/60 z-20"></div>
+          </div>
+        </a>
+        <a href="" class="overflow-hidden group">
+          <div class="w-full h-auto relative z-10"><img class="group-hover:scale-150 duration-1000 transition ease-in-out object-cover size-full" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/01/Education.jpg.webp" alt="">
+            <div class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 w-full text-center text-white text-[1.6em] font-extrabold z-30 px-[1.5em] hover:text-theme1 transition hover:scale-110 duration-1000 ease-in-out">EDUCATION <br>ORGANIZATION<br>TRANSPORTATION</div>
+            <div class="absolute top-0 left-0 size-full bg-black/60 z-20"></div>
+          </div>
+        </a>
+        <a href="" class="overflow-hidden group">
+          <div class="w-full h-auto relative z-10"><img class="group-hover:scale-150 duration-1000 transition ease-in-out object-cover size-full" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/01/MeetingsAndEvents.jpg.webp" alt="">
+            <div class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 w-full text-center text-white text-[1.6em] font-extrabold z-30 px-[1.5em] hover:text-theme1 transition hover:scale-110 duration-1000 ease-in-out">RENTAL A/V <br>EVENTS</div>
+            <div class="absolute top-0 left-0 size-full bg-black/60 z-20"></div>
+          </div>
+        </a>
+    </div>
+  </div>
+  <!--techled vedio end -->
+
+  <!-- novastar banner start -->
+      <div class="container py-8">
+        <div class="banner">
+          <img class="size-full object-contain" src="https://techledwall.com/wp-content/uploads/2023/05/banner-eng.png" alt="">
+        </div>
+      </div>
+  <!-- novastar banner end -->
+
+    <!-- led screen today start -->
+    <div class="wrapper relative py-8 mt-[100px] h-[500px]">
+      <img class="size-full object-cover" src="https://techledwall.com/wp-content/uploads/2021/03/back.svg" alt="">
+      <img class='absolute -top-20 left-2/4 -translate-x-2/4 w-[800px] h-auto' src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/led-screen-today-2x-2048x627.png.webp" alt="">
+      <div class="container mx-auto absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
+        <div class="text-2xl mb-4 text-white font-normal text-center pt-14">Techled has more than 16 years of experience manufacturing LED screens for<br> INDOOR and OUTDOOR purposes.</div>
+        <div class="text-lg text-white text-center">
+          Due to the modular system, our screens can adapt to many applications: <span class="font-semibold"> Churches, Retail,<br> Education, Rental Companies, Events, TV Studios, AVP,</span> and many other visual experiences.
+        </div>
+        <button class="border-2 px-4 py-1 mt-8 mx-auto flex items-center border-white text-md text-white font-semibold hover:bg-white hover:text-gray-600 transition"><svg class="me-2 size-4" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>CONTACT US</button>
+      </div>
+    </div>
+    <!-- led screen today end -->
 
   <!-- menu offcanvas -->
   <div id="drawer-top-example" class="fixed h-screen overflow-y-auto top-0 left-0 right-0 z-40 w-full p-4 transition-transform -translate-y-full bg-black/60 " tabindex="-1" aria-labelledby="drawer-top-label">
@@ -203,10 +383,212 @@
   </div>
   <!-- menu offcanvas ends -->
 
+  <!-- gallery start-->
+    <section id="gallery">
+      <div class="">
+        <div id="imageGallery1">
+          <div class="grid grid-cols-4 -mt-14">
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/Virtual-Production-2.jpg.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/Virtual-Production-2.jpg.webp" alt=""/>
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/TV-Studio-_-Broadcast-1.jpg.webp" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/TV-Studio-_-Broadcast-1.jpg.webp" alt="" />
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/uploads/2021/02/shoppings-1024x487.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/uploads/2021/02/shoppings-1024x487.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/uploads/2021/02/Outdoor-LED-display-1.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/uploads/2021/02/Outdoor-LED-display-1.jpg" alt="" />
+              </a>
+            </div>
+
+            
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/PANTALLA-LED-PARA-ESCENARIOS-Y-EVENTOS.jpg.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/PANTALLA-LED-PARA-ESCENARIOS-Y-EVENTOS.jpg.webp" alt=""/>
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/Architecture-_-design-1.jpg.webp" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/Architecture-_-design-1.jpg.webp" alt="" />
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/Airports-_-transportation-facilities.jpg.webp" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/Airports-_-transportation-facilities.jpg.webp" alt="" />
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/churchs-led-screen.jpg.webp" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/churchs-led-screen.jpg.webp" alt="" />
+              </a>
+            </div>
+
+            
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/led-screen-outdoor.jpg.webp" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/led-screen-outdoor.jpg.webp" alt=""/>
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/ledscreen-church.jpg.webp" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/ledscreen-church.jpg.webp" alt="" />
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/led-screen.jpg.webp" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/03/led-screen.jpg.webp" alt="" />
+              </a>
+            </div>
+            <div>
+              <a class="example-image-link" href="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2022/12/IMG_0235_1.HEIC.jpg.webp" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image h-64 w-full object-cover" src="https://techledwall.com/wp-content/webp-express/webp-images/uploads/2022/12/IMG_0235_1.HEIC.jpg.webp" alt="" />
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div> 
+    </section>
+  <!-- gallery end-->
+
+  <!-- talk to an expert start -->
+  <div class="wrapper relative mt-4 pb-8 h-[400px]">
+    <img class="size-full object-contain" src="https://techledwall.com/wp-content/uploads/2021/03/back.svg" alt="">
+    <div class="container mx-auto absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
+      <div class="text-5xl mb-10 text-white font-extrabold text-center pt-14">Talk to an Expert</div>
+      <div class="flex justify-center gap-4">
+        <button class="border-2 px-4 py-1 flex items-center border-white text-md text-white font-semibold hover:bg-white hover:text-gray-600 transition"><svg class="me-2" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M478.94 370.14c-5.22-5.56-23.65-22-57.53-43.75-34.13-21.94-59.3-35.62-66.52-38.81a3.83 3.83 0 0 0-3.92.49c-11.63 9.07-31.21 25.73-32.26 26.63-6.78 5.81-6.78 5.81-12.33 4-9.76-3.2-40.08-19.3-66.5-45.78s-43.35-57.55-46.55-67.3c-1.83-5.56-1.83-5.56 4-12.34.9-1.05 17.57-20.63 26.64-32.25a3.83 3.83 0 0 0 .49-3.92c-3.19-7.23-16.87-32.39-38.81-66.52-21.78-33.87-38.2-52.3-43.76-57.52a3.9 3.9 0 0 0-3.89-.87 322.35 322.35 0 0 0-56 25.45A338 338 0 0 0 33.35 92a3.83 3.83 0 0 0-1.26 3.74c2.09 9.74 12.08 50.4 43.08 106.72 31.63 57.48 53.55 86.93 100 133.22S252 405.21 309.54 436.84c56.32 31 97 41 106.72 43.07a3.86 3.86 0 0 0 3.75-1.26A337.73 337.73 0 0 0 454.35 430a322.7 322.7 0 0 0 25.45-56 3.9 3.9 0 0 0-.86-3.86z"></path></svg>(888) 398-5891</button>
+        <button class="border-2 px-4 py-1 flex items-center border-white text-md text-white font-semibold hover:bg-white hover:text-gray-600 transition"><svg class="me-2 size-4" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>GET IN TOUCH</button>
+      </div>
+    </div>
+  </div>
+  <!-- talk to an expert end -->
+
+  <!-- testimonials start -->
+  <div class="">
+    <div class="relative">
+      <img class="w-full h-auto object-contain" src="https://techledwall.com/wp-content/uploads/2021/02/fondo2.svg" alt="">
+      <div class="container py-8 absolute top-16 left-2/4 -translate-x-2/4">
+        <div class="xl:text-[1.7em] lg:text-3xl md:text-3xl text-2xl font-extrabold text-black text-center mb-[0.5em]">LED WALL TESTIMONIALS</div>
+        <div class="xl:text-[1.7em] lg:text-2xl md:text-xl text-lg font-bold text-black text-center">Excellent</div>
+        <div class="mt-2">
+          <ul class="flex justify-center">
+            <li class="text-[#F6BE11] size-[30px]">
+              <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+            </li>
+            <li class="text-[#F6BE11] size-[30px]">
+              <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+            </li>
+            <li class="text-[#F6BE11] size-[30px]">
+              <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+            </li>
+            <li class="text-[#F6BE11] size-[30px]">
+              <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+            </li>
+            <li class="text-[#F6BE11] size-[30px]">
+              <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+            </li>
+          </ul>
+        </div>
+        <div class="text-md text-black flex justify-center">Based on <span class="font-bold">131 reviews</span></div>
+        <div class="mx-auto h-[35px] w-[110px] mt-2"><img class="size-full object-contain" src="https://cdn.trustindex.io/assets/platform/Google/logo.svg" alt=""></div>
+        <div class="mt-8">
+          <div class="aspect-[1.5]  overflow-hidden">
+            <div class="swiper tesimonialsSwiper h-full group">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="tesimonialsWrapper border bg-white shadow p-4 rounded-md">
+                      <div class="flex justify-between items-start">
+                        <div class="col-span-9 flex items-center gap-4">
+                          <div class="flex-none">
+                            <div class="profile"><img class="size-10 rounded-full" src="https://lh3.googleusercontent.com/a-/ACB-R5RaaSUbSJC_7-n6RR5bxB6WBdeevMBFLC0-D6KfvA=s120-c-c-rp-w64-h64-mo-br100" alt=""></div>
+                          </div>
+                          <div class="grow">
+                            <div class="text-md font-bold text-black truncate "> Johnatan Gonzalez </div>
+                            <div class="text-xs font-normal text-gray-600"> May 17, 2023.</div>
+                          </div>
+                        </div>
+                        <div class="col-span-3"><div class="google"><img class="size-6 object-contain" src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""></div></div>
+                      </div>
+                      <div class="py-4">
+                        <ul class="flex justify-start">
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="text-md font-semibold text-black">Excelente servicio, muy amable, y atento con la necesidad y accesible</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="tesimonialsWrapper border bg-white shadow p-4 rounded-md">
+                      <div class="flex justify-between items-start">
+                        <div class="col-span-9 flex items-center gap-4">
+                          <div class="flex-none">
+                            <div class="profile"><img class="size-10 rounded-full" src="https://lh3.googleusercontent.com/a-/ACB-R5Rs3hQcs1CCDA1E-cZIwC8sY643rZrPWkeqvObU=s120-c-c-rp-w64-h64-mo-br100" alt=""></div>
+                          </div>
+                          <div class="grow">
+                            <div class="text-md font-bold text-black truncate ">  Winston Delgado O Delgado O  </div>
+                            <div class="text-xs font-normal text-gray-600">May 12, 2023.</div>
+                          </div>
+                        </div>
+                        <div class="col-span-3"><div class="google"><img class="size-6 object-contain" src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt=""></div></div>
+                      </div>
+                      <div class="py-4">
+                        <ul class="flex justify-start">
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                          <li class="text-[#F6BE11] size-[20px]">
+                            <svg class="size-full object-contain" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M3.1 11.3l3.6 3.3-1 4.6c-.1.6.1 1.2.6 1.5.2.2.5.3.8.3.2 0 .4 0 .6-.1 0 0 .1 0 .1-.1l4.1-2.3 4.1 2.3s.1 0 .1.1c.5.2 1.1.2 1.5-.1.5-.3.7-.9.6-1.5l-1-4.6c.4-.3 1-.9 1.6-1.5l1.9-1.7.1-.1c.4-.4.5-1 .3-1.5s-.6-.9-1.2-1h-.1l-4.7-.5-1.9-4.3s0-.1-.1-.1c-.1-.7-.6-1-1.1-1-.5 0-1 .3-1.3.8 0 0 0 .1-.1.1l-1.9 4.3-4.7.5h-.1c-.5.1-1 .5-1.2 1-.1.6 0 1.2.4 1.6z"></path></svg>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="text-md font-semibold text-black">Exelente el soporte por parte de Alexis desde Argentina resolvió todo muy rápido todo</div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="h-full">
+                  </div>
+                </div>
+              </div>
+              <div class="heroNext absolute top-1/2 right-4 z-10 -translate-y-1/2 -translate-x-10 size-10 border-2 border-white  rounded-full flex items-center justify-center text-lg text-white transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>
+              </div>
+              <div class="heroPrev absolute top-1/2 left-4 z-10 -translate-y-1/2 translate-x-10 size-10 border-2 border-white  rounded-full flex items-center justify-center text-lg text-white transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"></path></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- testimonials end -->
 
   <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./assets/js/index.js"></script>
+  <script src="path/to/lightbox.js"></script>
+  <script src="../dist/js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
     var swiper = new Swiper(".heroSwiper", {
       loop: true,
@@ -225,5 +607,46 @@
         },
       });
     </script>
+    <script>
+      var swiper = new Swiper(".tesimonialsSwiper", {
+        loop: true,
+        breakpoints: {
+        360: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        576: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+        1400: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+        navigation: {
+          nextEl: ".heroNext",
+          prevEl: ".heroPrev",
+        },
+      });
+    </script>
+<script>
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  })
+</script>
 </body>
 </html>
