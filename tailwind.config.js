@@ -24,11 +24,12 @@ module.exports = {
     },
     extend: {
       colors : {
-        theme1: '#4ba6bb',
+        theme1: '#DC211D',
         theme2: '#000',
         theme3: '#8492a6',
         theme4: '#2b3b60',
-        theme5: '#3a589d'
+        theme5: '#3a589d',
+        theme6: '#185EC7'
 
       }
     },
