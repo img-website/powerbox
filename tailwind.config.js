@@ -26,7 +26,8 @@ module.exports = {
       colors : {
         theme1: '#4ba6bb',
         theme2: '#000',
-        theme3: '#8492a6'
+        theme3: '#8492a6',
+        theme4: '#2b3b60'
       }
     },
   },
