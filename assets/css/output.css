@@ -4733,17 +4733,6 @@ video {
   line-height: 1.5rem;
 }
 
-.\[\&_\.navAnchor\.nomd\:Hover\]\:before\:hidden .navAnchor.nomd:Hover::before {
-  content: var(--tw-content);
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .md\:hover\:\[\&_\.navAnchor\.nomd\:Hover\]\:text-white\/100 .navAnchor.nomd:Hover:hover {
-    color: rgb(255 255 255 / 1);
-  }
-}
-
 .\[\&_\.navAnchor\]\:relative .navAnchor {
   position: relative;
 }
@@ -4816,13 +4805,6 @@ video {
 .hover\:\[\&_\.navAnchor\]\:before\:w-full .navAnchor:hover::before {
   content: var(--tw-content);
   width: 100%;
-}
-
-@media (min-width: 768px) {
-  .md\:hover\:\[\&_\.navAnchor\]\:before\:w-full .navAnchor:hover::before {
-    content: var(--tw-content);
-    width: 100%;
-  }
 }
 
 .\[\&_\.navLi\.innerLi\]\:py-2 .navLi.innerLi {
