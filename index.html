@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="./assets//img//logo.jpg">
+  <link rel="icon" type="image/x-icon" href="./assets/img/logo.jpg">
   <title>Techled- High-Quality LED Video Walls</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <link rel="stylesheet" href="./assets/css/output.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/libs/glightBox/glightbox.min.css" />
@@ -141,32 +141,43 @@
           <img class="w-full object-contain" src="./assets/img/consultation2.png" alt="">
           <div class="text-center text-base text-theme3 ">A company with over 16 years of experience, specialized in manufacturing and installation of LED screens, official licensees of Grecko Led and Novastar in the United States.</div>
         </div>
-        <div class="col-span-12 sm:col-span-6">
+        <form class="col-span-12 sm:col-span-6">
           <div class="bg-white p-7 shadow-sm">
             <div class="text-[1.6rem] font-bold mb-2">A Free Consultation</div>
             <div class="text-base text-theme3 mb-3">Contact us with any questions or inquiries. We would be happy to answer your questions.</div>
             <div>
               <label class="text-md font-bold text-theme2 block mb-2" for="">Name</label>
-              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
             </div>
             <div class="my-4">
               <label class="text-md font-bold text-theme2 block mb-2" for="">E-mail</label>
-              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
             </div>
             <div class="my-4">
-              <label class="text-md font-bold text-theme2 block mb-2" for="">Upload E-mail</label>
-                <!-- <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">Upload file</label> -->
-                <input class="block w-full text-sm text-gray-900 border border-gray-300  cursor-pointerdark:text-gray-400 focus:outline-none" id="file_input" type="file">
-
-              <!-- <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="file"> -->
+              <label class="text-md font-bold text-theme2 block mb-2" for="file_input">Upload Image</label>
+              <div class="flex items-center space-x-6">
+                <div class="shrink-0">
+                  <img class="h-16 w-16 object-cover rounded-full" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80" alt="Current profile photo" />
+                </div>
+                <label class="block">
+                  <span class="sr-only">Choose profile photo</span>
+                  <input type="file" class="block w-full text-sm text-slate-500
+                    file:mr-4 file:py-2 file:px-4
+                    file:rounded-full file:border-0
+                    file:text-sm file:font-semibold
+                    file:bg-theme1/5 file:text-theme1
+                    hover:file:bg-theme1/10
+                  "/>
+                </label>
+              </div>
             </div>
             <div class="my-4">
               <label class="text-md font-bold text-theme2 block mb-2" for="">Phone Number</label>
-              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
             </div>
             <div class="my-4">
               <label class="text-md font-bold text-theme2 block mb-2" for="">Company - Institution</label>
-              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow" type="text">
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
             </div>
             <div class="my-4">
               <label class="text-md font-bold text-theme2 block mb-2" for="">Type of business</label>
@@ -226,7 +237,7 @@
               <button class="bg-theme1 text-md font-bold text-white px-4 py-2 hover:brightness-50 transition duration-150 ease-out">SUBMIT</button>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   <!-- free consultation ends -->
@@ -905,7 +916,6 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./assets/js/index.js"></script>
   <script src="./assets//libs/glightBox/glightbox.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
     var swiper = new Swiper(".heroSwiper", {
       loop: true,
