@@ -2876,11 +2876,6 @@ video {
   padding-right: 1rem !important;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -3258,6 +3253,10 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.\!leading-\[120\%\] {
+  line-height: 120% !important;
+}
+
 .leading-5 {
   line-height: 1.25rem;
 }
@@ -3280,6 +3279,14 @@ video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-\[120\] {
+  line-height: 120;
+}
+
+.leading-\[12\] {
+  line-height: 12;
 }
 
 .tracking-\[1px\] {
