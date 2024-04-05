@@ -3290,8 +3290,8 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-5 {
-  line-height: 1.25rem;
+.\!leading-\[120\%\] {
+  line-height: 120% !important;
 }
 
 .leading-6 {
@@ -3312,10 +3312,6 @@ video {
 
 .leading-normal {
   line-height: 1.5;
-}
-
-.\!leading-\[120\%\] {
-  line-height: 120% !important;
 }
 
 .tracking-\[1px\] {
