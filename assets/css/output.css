@@ -749,6 +749,14 @@ video {
   top: 125%;
 }
 
+.-bottom-32 {
+  bottom: -8rem;
+}
+
+.left-52 {
+  left: 13rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -959,6 +967,14 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .box-border {
@@ -1226,6 +1242,18 @@ video {
 
 .max-h-\[500px\] {
   max-height: 500px;
+}
+
+.max-h-\[600px\] {
+  max-height: 600px;
+}
+
+.max-h-\[700px\] {
+  max-height: 700px;
+}
+
+.max-h-\[800px\] {
+  max-height: 800px;
 }
 
 .\!w-auto {
@@ -2641,6 +2669,14 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.bg-black\/75 {
+  background-color: rgb(0 0 0 / 0.75);
+}
+
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/03\/events-solution\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/03/events-solution.jpg');
 }
@@ -3108,6 +3144,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -4281,6 +4322,14 @@ video {
     height: 280px;
   }
 
+  .md\:h-\[680px\] {
+    height: 680px;
+  }
+
+  .md\:h-\[500px\] {
+    height: 500px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -4582,6 +4631,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .xl\:w-1\/6 {
     width: 16.666667%;
   }
@@ -4589,6 +4642,11 @@ video {
   .xl\:object-contain {
     -o-object-fit: contain;
        object-fit: contain;
+  }
+
+  .xl\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .xl\:text-\[1\.7em\] {
