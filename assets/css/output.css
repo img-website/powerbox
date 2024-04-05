@@ -737,6 +737,10 @@ video {
   top: 50%;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
 .top-2\/4 {
   top: 50%;
 }
@@ -864,6 +868,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -951,6 +960,10 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
@@ -1084,20 +1097,20 @@ video {
   aspect-ratio: 1/.95;
 }
 
+.aspect-\[1\/1\.2\] {
+  aspect-ratio: 1/1.2;
+}
+
+.aspect-\[1\/1\] {
+  aspect-ratio: 1/1;
+}
+
 .aspect-\[100\/95\] {
   aspect-ratio: 100/95;
 }
 
 .aspect-square {
   aspect-ratio: 1 / 1;
-}
-
-.aspect-\[2\/3\] {
-  aspect-ratio: 2/3;
-}
-
-.aspect-\[1\/1\] {
-  aspect-ratio: 1/1;
 }
 
 .size-10 {
@@ -1166,10 +1179,6 @@ video {
 
 .h-16 {
   height: 4rem;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .h-3 {
@@ -1254,10 +1263,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .max-h-\[500px\] {
@@ -2552,6 +2557,11 @@ video {
   border-color: rgb(241 245 249 / var(--tw-border-opacity));
 }
 
+.border-theme1 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 33 29 / var(--tw-border-opacity));
+}
+
 .border-theme2 {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
@@ -2682,16 +2692,32 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/02\/4-1\.jpg\'\)\] {
+  background-image: url('https://techledwall.com/wp-content/uploads/2021/02/4-1.jpg');
+}
+
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/02\/BahaMar1\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/02/BahaMar1.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/03\/airports\.jpg\'\)\] {
+  background-image: url('https://techledwall.com/wp-content/uploads/2021/03/airports.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/03\/events-solution\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/03/events-solution.jpg');
 }
 
+.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/03\/outdoor\.jpg\'\)\] {
+  background-image: url('https://techledwall.com/wp-content/uploads/2021/03/outdoor.jpg');
+}
+
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/03\/shopping\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/03/shopping.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/03\/virtual-production\.jpg\'\)\] {
+  background-image: url('https://techledwall.com/wp-content/uploads/2021/03/virtual-production.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2023\/10\/mobile-1\.jpg\'\)\] {
@@ -2704,10 +2730,6 @@ video {
 
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/02\/4-1\.jpg\'\)\] {
-  background-image: url('https://techledwall.com/wp-content/uploads/2021/02/4-1.jpg');
 }
 
 .from-black\/20 {
@@ -3268,6 +3290,10 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.leading-5 {
+  line-height: 1.25rem;
+}
+
 .leading-6 {
   line-height: 1.5rem;
 }
@@ -3633,6 +3659,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -3877,6 +3909,21 @@ video {
       max-width: 1110px;
     }
   }
+}
+
+.\*\:size-full > * {
+  width: 100%;
+  height: 100%;
+}
+
+.\*\:object-contain > * {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.\*\:object-center > * {
+  -o-object-position: center;
+     object-position: center;
 }
 
 .\*\:text-white > * {
@@ -4155,6 +4202,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-theme1:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 33 29 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-theme5:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(58 88 157 / var(--tw-bg-opacity));
@@ -4204,6 +4256,17 @@ video {
 
 .hover\:decoration-1:hover {
   text-decoration-thickness: 1px;
+}
+
+.hover\:shadow-2xl:hover {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-theme3:hover {
+  --tw-shadow-color: #8492a6;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .hover\:brightness-50:hover {
@@ -4288,6 +4351,10 @@ video {
   --tw-scale-x: 1.5;
   --tw-scale-y: 1.5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:opacity-0 {
+  opacity: 0;
 }
 
 .group:hover .group-hover\:opacity-100 {
