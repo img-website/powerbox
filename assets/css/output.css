@@ -2749,6 +2749,10 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/webp-express\/webp-images\/uploads\/2021\/02\/sanki\.jpeg\.webp\'\)\] {
+  background-image: url('https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/sanki.jpeg.webp');
+}
+
 .from-black\/20 {
   --tw-gradient-from: rgb(0 0 0 / 0.2) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
@@ -4932,6 +4936,11 @@ video {
 
   .xl\:text-\[1\.7em\] {
     font-size: 1.7em;
+  }
+
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 
