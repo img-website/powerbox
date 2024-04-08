@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" /> -->
     <link rel="stylesheet" href="./assets/libs/glightBox/glightbox.min.css">
+    <link rel="stylesheet" href="./assets/libs/intl-tel-input-master/intl-tel-input-master/build/css/intlTelInput.min.css">
+
 </head>
 
 <body class="">
@@ -212,88 +214,87 @@
                 </div>
                 <form class="col-span-12 sm:col-span-6">
                     <div class="bg-white p-7 shadow-sm">
-                      <div class="text-[1.6rem] font-bold mb-2">A Free Consultation</div>
-                      <div class="text-base text-theme3 mb-3">Contact us with any questions or inquiries. We would be happy to answer your questions.</div>
-                      <div>
+                        <div class="text-[1.6rem] font-bold mb-2">A Free Consultation</div>
+                        <div class="text-base text-theme3 mb-3">Contact us with any questions or inquiries. We would be happy to answer your questions.</div>
+                        <div>
                         <label class="text-md font-bold text-theme2 block mb-2" for="">Name</label>
                         <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
-                      </div>
-                      <div class="my-4">
-                        <label class="text-md font-bold text-theme2 block mb-2" for="">E-mail</label>
-                        <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
-                      </div>
-                      <div class="my-4">
-                        <label class="text-md font-bold text-theme2 block mb-2" for="file_input">Upload Image</label>
-                        <div class="flex items-center space-x-6">
-                          <div class="shrink-0">
-                            <img class="h-16 w-16 object-cover rounded-full" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80" alt="Current profile photo" />
-                          </div>
-                          <label class="block">
-                            <span class="sr-only">Choose profile photo</span>
-                            <input type="file" class="block w-full text-sm text-slate-500
-                              file:mr-4 file:py-2 file:px-4
-                              file:rounded-full file:border-0
-                              file:text-sm file:font-semibold
-                              file:bg-theme1/5 file:text-theme1
-                              hover:file:bg-theme1/10
-                            "/>
-                          </label>
-                        </div>
-                      </div>
-                      <div class="my-4">
-                        <label class="text-md font-bold text-theme2 block mb-2" for="">Phone Number</label>
-                        <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
-                      </div>
-                      <div class="my-4">
-                        <label class="text-md font-bold text-theme2 block mb-2" for="">Company - Institution</label>
-                        <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
-                      </div>
-                      
-                      <div class="my-4">
-                        <label class="text-md font-bold text-theme2 block mb-2" for="">Location project </label>
-                            <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
-                              <option selected>--Please choose an option--</option>
-                              <option value="US">Alabama</option>
-                              <option value="CA">Alaska</option>
-                              <option value="FR">Arizona</option>
-                              <option value="DE">Arkansas</option>
-                              <option value="DE">California</option>
-                              <option value="DE">Colorado</option>
-                              <option value="DE">Connecticut</option>
-                              <option value="DE">Delaware</option>
-                              <option value="DE">Florida</option>
-                              <option value="DE">Georgia</option>
-                              <option value="DE">Idaho</option>
-                              <option value="DE">Hawaii</option>
-                              <option value="DE">Illinois</option>
-                              <option value="DE">Indiana</option>
-                              <option value="DE">Kansas</option>
-                              <option value="DE">Kentucky</option>
-                              <option value="DE">Louisiana</option>
-                              <option value="DE">Maine</option>
-                              <option value="DE">Maryland</option>
-                              <option value="DE">Massachusetts</option>
-                              <option value="DE">Michigan</option>
-                              <option value="DE">Minnesota</option>
-                              <option value="DE">Mississippi</option>
-                              <option value="DE">Missouri</option>
-                              <option value="DE">Montana</option>
-                              <option value="DE">Nebraska</option>
-                              <option value="DE">Nevada</option>
-                              <option value="DE">New Hampshire</option>
-                              <option value="DE">New Jersey</option>
-                            </select>
-                      </div>
-                      <div class="my-4">
-                        <label class="text-md font-bold text-theme2 block mb-2" for="">Message</label>
-                          <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 focus:shadow border border-gray-200 focus:ring-gray-200 focus:border-gray-200" placeholder="Write your thoughts here...">
-                          </textarea>
-                      </div>
-                      <div class="my-4">
-                        <button class="bg-theme1 text-md font-bold text-white px-4 py-2 hover:brightness-50 transition duration-150 ease-out">SUBMIT</button>
-                      </div>
                     </div>
-                  </form>
+                        <div class="my-4">
+                            <label class="text-md font-bold text-theme2 block mb-2" for="">E-mail</label>
+                            <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+                        </div>
+                        <div class="my-4">
+                            <label class="text-md font-bold text-theme2 block mb-2" for="file_input">Upload Image</label>
+                            <div class="flex items-center space-x-6">
+                            <div class="shrink-0">
+                                <img class="h-16 w-16 object-cover rounded-full" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80" alt="Current profile photo" />
+                            </div>
+                            <label class="block">
+                                <span class="sr-only">Choose profile photo</span>
+                                <input type="file" class="block w-full text-sm text-slate-500
+                                file:mr-4 file:py-2 file:px-4
+                                file:rounded-full file:border-0
+                                file:text-sm file:font-semibold
+                                file:bg-theme1/5 file:text-theme1
+                                hover:file:bg-theme1/10
+                                "/>
+                            </label>
+                            </div>
+                        </div>
+                        <div class="my-4 [&_.iti]:w-full">
+                            <label class="text-md font-bold text-theme2 block mb-2" for="">Phone Number</label>
+                            <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="tel" id="phone">
+                        </div>
+                        <div class="my-4">
+                            <label class="text-md font-bold text-theme2 block mb-2" for="">Company - Institution</label>
+                            <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+                        </div>
+                        <div class="my-4">
+                            <label class="text-md font-bold text-theme2 block mb-2" for="">Location project </label>
+                                <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
+                                <option selected>--Please choose an option--</option>
+                                <option value="US">Alabama</option>
+                                <option value="CA">Alaska</option>
+                                <option value="FR">Arizona</option>
+                                <option value="DE">Arkansas</option>
+                                <option value="DE">California</option>
+                                <option value="DE">Colorado</option>
+                                <option value="DE">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DE">Florida</option>
+                                <option value="DE">Georgia</option>
+                                <option value="DE">Idaho</option>
+                                <option value="DE">Hawaii</option>
+                                <option value="DE">Illinois</option>
+                                <option value="DE">Indiana</option>
+                                <option value="DE">Kansas</option>
+                                <option value="DE">Kentucky</option>
+                                <option value="DE">Louisiana</option>
+                                <option value="DE">Maine</option>
+                                <option value="DE">Maryland</option>
+                                <option value="DE">Massachusetts</option>
+                                <option value="DE">Michigan</option>
+                                <option value="DE">Minnesota</option>
+                                <option value="DE">Mississippi</option>
+                                <option value="DE">Missouri</option>
+                                <option value="DE">Montana</option>
+                                <option value="DE">Nebraska</option>
+                                <option value="DE">Nevada</option>
+                                <option value="DE">New Hampshire</option>
+                                <option value="DE">New Jersey</option>
+                                </select>
+                        </div>
+                        <div class="my-4">
+                            <label class="text-md font-bold text-theme2 block mb-2" for="">Message</label>
+                            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 focus:shadow border border-gray-200 focus:ring-gray-200 focus:border-gray-200" placeholder="Write your thoughts here...">
+                            </textarea>
+                        </div>
+                    <div class="my-4">
+                        <button class="bg-theme1 text-md font-bold text-white px-4 py-2 hover:brightness-50 transition duration-150 ease-out">SUBMIT</button>
+                    </div>
+                    </div>
+                </form>
             </div>
             <div class="text-base md:text-xl text-center mt-5 md:mt-10 text-[#3b3b3b] font-medium">
                 By adding our LED Video Wall product to your House of Worship, you will not only create and manage to conceive a new updated environment for your community, but you will be able to support the message and sermons with the use of the screens, generating a unique and incredible visual resource. The faithful will live a unique moment, overwhelmed by unimaginable visual stimuli. The extension of his doctrine will be perceived in a way never before realized.
@@ -1004,7 +1005,7 @@
                     <div class="w-full md:w-1/2 my-3 px-2">
                         <label class="text-md font-bold text-theme2 block mb-2" for="">Upload Image</label>
                         <input class="block w-full text-sm text-gray-900 border border-gray-300  cursor-pointer dark:text-gray-400 focus:outline-none file:mr-4 file:py-2 file:px-4
-                         file:border-0
+                        file:border-0
                         file:text-sm file:font-semibold
                         file:bg-theme1/5 file:text-theme1
                         hover:file:bg-theme1/10" id="file_input" type="file">
@@ -1013,9 +1014,9 @@
                         <label class="text-md font-bold text-theme2 block mb-2" for="">Last Name</label>
                         <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
                     </div>
-                    <div class="w-full md:w-1/2 my-3 px-2">
+                    <div class="w-full md:w-1/2 my-3 px-2 [&_.iti]:w-full">
                         <label class="text-md font-bold text-theme2 block mb-2" for="">Phone Number</label>
-                        <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+                        <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="tel" id="phone2">
                     </div>
                     <div class="w-full my-3 px-2">
                         <label class="text-md font-bold text-theme2 block mb-2" for="">Company Institution</label>
@@ -1404,6 +1405,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/libs/intl-tel-input-master/intl-tel-input-master/build/js/intlTelInput.min.js"></script> 
+
+    <script>
+        const input = document.querySelector("#phone");
+            const iti = window.intlTelInput(input, {
+                // utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.3.0/build/js/utils.js",
+            });
+            window.iti = iti;
+    </script>
+    <script>
+        const input2 = document.querySelector("#phone2");
+            const iti2 = window.intlTelInput(input2, {
+                // utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.3.0/build/js/utils.js",
+            });
+            window.iti = iti2;
+    </script>
     <script>
         var swiper = new Swiper(".houseSwiper", {
             loop: true,

@@ -5022,6 +5022,22 @@ video {
   }
 }
 
+.\[\&\.iti\]\:w-full.iti {
+  width: 100%;
+}
+
+.\*\:\[\&\.iti\]\:w-full.iti > * {
+  width: 100%;
+}
+
+.\*\:\*\:\[\&\.iti\]\:w-full.iti > * > * {
+  width: 100%;
+}
+
+.\[\&_\.iti\]\:w-full .iti {
+  width: 100%;
+}
+
 .\[\&_\.navAnchor\.active\]\:before\:w-full .navAnchor.active::before {
   content: var(--tw-content);
   width: 100%;
