@@ -9,269 +9,279 @@
         <link rel="stylesheet" href="./assets/css/output.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="./assets/libs/glightBox/glightbox.min.css" />
-      </head>
+        <link rel="stylesheet" href="./assets/libs/intl-tel-input-master/intl-tel-input-master/build/css/intlTelInput.min.css">
+    </head>
 <body class="bg-[#fafafa]">
     <!-- header starts -->
-    <div class="bg-theme2">
-        <div class="container py-4">
-          <div class="flex w-100 items-center">
-            <div class="flex-0">
-              <a href="/">
-                <img class="h-[50px] object-contain" src="./assets/img/logo.jpg" alt="">
-              </a>
+        <div class="bg-theme2">
+            <div class="container py-4">
+            <div class="flex w-100 items-center">
+                <div class="flex-0">
+                <a href="/">
+                    <img class="h-[50px] object-contain" src="./assets/img/logo.jpg" alt="">
+                </a>
+                </div>
+                <div class="flex-1">
+                <ul class="m-0 p-0 list-none hidden lg:flex items-center justify-end [&_.navLi]:px-2 [&_.navLi]:flex [&_.navAnchor]:uppercase [&_.navAnchor]:text-white/80 [&_.navAnchor]:text-xs [&_.navAnchor]:font-medium [&_.navAnchor]:relative [&_.navAnchor]:before:w-0 [&_.navAnchor]:before:h-[3px] [&_.navAnchor]:before:bg-theme1 [&_.navAnchor]:before:absolute [&_.navAnchor]:before:left-0 [&_.navAnchor]:before:-bottom-1 hover:[&_.navAnchor.noHover]:text-white/100 [&_.navAnchor.noHover]:before:hidden [&_.navAnchor]:before:transition-all [&_.navAnchor]:before:duration-300 [&_.navAnchor.active]:before:w-full hover:[&_.navAnchor]:before:w-full">
+                    <li class="navLi">
+                    <a class="navAnchor active" href="./index.html">Home</a>
+                    </li>
+                    <li class="navLi relative group">
+                    <a class="navAnchor flex items-center" href="javascript:;">
+                        Solutions
+                        <img class="size-3.5 object-contain ml-1" src="./assets/img/downAngle.svg" alt="">
+                    </a>
+                    <ul class="m-0 z-50 p-2 list-none absolute bg-theme2 top-[125%] left-0 text-nowrap hidden group-hover:block">
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./house-of-worship.html">HOUSE OF WORSHIP</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./event.html">Event show LED display</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./shopping-mall.html">Shopping Mall</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./airpot.html">Airports & transportation facilities</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./display.html">Outdoor LED display</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./virtual.html">Virtual Production</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./night-club.html">Nightclubs and Bars</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./tv-studio.html">TV Studio – Broadcast</a></li>
+                    </ul>
+                    </li>
+                    <li class="navLi relative group">
+                    <a class="navAnchor flex items-center" href="javascript:;">
+                        Products
+                        <img class="size-3.5 object-contain ml-1" src="./assets/img/downAngle.svg" alt="">
+                    </a>
+                    <ul class="m-0 p-2 list-none z-50 absolute bg-theme2 top-[125%] left-0 text-nowrap hidden group-hover:block">
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./indoor.html">Led Wall Indoor</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./outdoor.html">Led wall outdoor</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./ledfloor.html">Led Floor</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./ledbanner.html">Led Banner</a></li>
+                        <li class="navLi py-2"><a class="navAnchor noHover" href="./structure.html">STRUCTURE</a></li>
+                    </ul>
+                    </li>
+                    <li class="navLi">
+                    <a class="navAnchor" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="navLi">
+                    <div class="size-4 flex items-center justify-center cursor-pointer">
+                        <img class="h-full w-full object-contain" src="./assets/img/country.png" alt="">
+                    </div>
+                    </li>
+                    <li class="navLi">
+                    <a class="navAnchor noHover bg-theme1 px-3 py-[4px] rounded-xl flex items-center" href="tel:18883985891">
+                        <img class="size-3 object-contain mr-2" src="./assets/img/phone.svg" alt="">
+                        1 (888) 398-5891
+                    </a>
+                    </li>
+                </ul>
+                <div class="flex items-center justify-center lg:hidden size-8 rounded-full bg-theme1 ml-auto cursor-pointer" type="button" data-drawer-target="drawer-top-example" data-drawer-show="drawer-top-example" data-drawer-placement="top" aria-controls="drawer-top-example">
+                    <img src="./assets/img/menu.svg" alt="">
+                </div>
+                </div>
             </div>
-            <div class="flex-1">
-              <ul class="m-0 p-0 list-none hidden lg:flex items-center justify-end [&_.navLi]:px-2 [&_.navLi]:flex [&_.navAnchor]:uppercase [&_.navAnchor]:text-white/80 [&_.navAnchor]:text-xs [&_.navAnchor]:font-medium [&_.navAnchor]:relative [&_.navAnchor]:before:w-0 [&_.navAnchor]:before:h-[3px] [&_.navAnchor]:before:bg-theme1 [&_.navAnchor]:before:absolute [&_.navAnchor]:before:left-0 [&_.navAnchor]:before:-bottom-1 hover:[&_.navAnchor.noHover]:text-white/100 [&_.navAnchor.noHover]:before:hidden [&_.navAnchor]:before:transition-all [&_.navAnchor]:before:duration-300 [&_.navAnchor.active]:before:w-full hover:[&_.navAnchor]:before:w-full">
-                <li class="navLi">
-                  <a class="navAnchor active" href="./index.html">Home</a>
-                </li>
-                <li class="navLi relative group">
-                  <a class="navAnchor flex items-center" href="javascript:;">
-                    Solutions
-                    <img class="size-3.5 object-contain ml-1" src="./assets/img/downAngle.svg" alt="">
-                  </a>
-                  <ul class="m-0 z-50 p-2 list-none absolute bg-theme2 top-[125%] left-0 text-nowrap hidden group-hover:block">
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./house-of-worship.html">HOUSE OF WORSHIP</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./event.html">Event show LED display</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./shopping-mall.html">Shopping Mall</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./airpot.html">Airports & transportation facilities</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./display.html">Outdoor LED display</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./virtual.html">Virtual Production</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./night-club.html">Nightclubs and Bars</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./tv-studio.html">TV Studio – Broadcast</a></li>
-                  </ul>
-                </li>
-                <li class="navLi relative group">
-                  <a class="navAnchor flex items-center" href="javascript:;">
-                    Products
-                    <img class="size-3.5 object-contain ml-1" src="./assets/img/downAngle.svg" alt="">
-                  </a>
-                  <ul class="m-0 p-2 list-none z-50 absolute bg-theme2 top-[125%] left-0 text-nowrap hidden group-hover:block">
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./indoor.html">Led Wall Indoor</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./outdoor.html">Led wall outdoor</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./ledfloor.html">Led Floor</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./ledbanner.html">Led Banner</a></li>
-                    <li class="navLi py-2"><a class="navAnchor noHover" href="./structure.html">STRUCTURE</a></li>
-                  </ul>
-                </li>
-                <li class="navLi">
-                  <a class="navAnchor" href="./contact.html">Contact</a>
-                </li>
-                <li class="navLi">
-                  <div class="size-4 flex items-center justify-center cursor-pointer">
-                    <img class="h-full w-full object-contain" src="./assets/img/country.png" alt="">
-                  </div>
-                </li>
-                <li class="navLi">
-                  <a class="navAnchor noHover bg-theme1 px-3 py-[4px] rounded-xl flex items-center" href="tel:18883985891">
-                    <img class="size-3 object-contain mr-2" src="./assets/img/phone.svg" alt="">
-                    1 (888) 398-5891
-                  </a>
-                </li>
-              </ul>
-              <div class="flex items-center justify-center lg:hidden size-8 rounded-full bg-theme1 ml-auto cursor-pointer" type="button" data-drawer-target="drawer-top-example" data-drawer-show="drawer-top-example" data-drawer-placement="top" aria-controls="drawer-top-example">
-                <img src="./assets/img/menu.svg" alt="">
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     <!-- header ends --> 
-     <!--form start  -->
-      <div class="grid grid-cols-12 max-w-6xl gap-5 mx-auto">
-        <div class="md:col-span-7 col-span-12">
-            <section class="bg-white my-5 shadow-xl">
-                <div class="py-8 mx-auto max-w-7xl px-4 lg:px-8">
-                    <div class="text-3xl sm:text-4xl md:text-3xl font-extrabold text-theme2 italic">
-                        CONTACT US TODAY!
-                    </div>
-                    <div class="text-base font-medium text-theme3">
-                        Contact us with any questions or inquiries. We would be happy to answer your questions.
-                    </div>
-                    <div class="mt-4">
-                        <div class="bg-white  shadow-sm py-5 md:py-10 flex items-center flex-wrap">
-                        <div class="w-full md:w-1/2 my-3 px-2">
-                            <label class="text-md font-bold text-theme2 block mb-2" for="">Name</label>
-                            <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+    <!--form start  -->
+        <div class="grid grid-cols-12 max-w-6xl gap-5 mx-auto">
+            <div class="md:col-span-7 col-span-12">
+                <section class="bg-white my-5 shadow-xl">
+                    <div class="py-8 mx-auto max-w-7xl px-4 lg:px-8">
+                        <div class="text-3xl sm:text-4xl md:text-3xl font-extrabold text-theme2 italic">
+                            CONTACT US TODAY!
                         </div>
-                        <div class="w-full md:w-1/2 my-3 px-2">
-                            <label class="text-md font-bold text-theme2 block mb-2" for="">Upload Image</label>
-                            <input class="block w-full text-sm text-gray-900 border border-gray-300  cursor-pointer dark:text-gray-400 focus:outline-none file:mr-4 file:py-2 file:px-4
-                             file:border-0
-                            file:text-sm file:font-semibold
-                            file:bg-theme1/5 file:text-theme1
-                            hover:file:bg-theme1/10" id="file_input" type="file">
+                        <div class="text-base font-medium text-theme3">
+                            Contact us with any questions or inquiries. We would be happy to answer your questions.
                         </div>
-                        <div class="w-full md:w-1/2 my-3 px-2">
-                            <label class="text-md font-bold text-theme2 block mb-2" for="">Last Name</label>
-                            <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
-                        </div>
-                        <div class="w-full md:w-1/2 my-3 px-2">
-                            <label class="text-md font-bold text-theme2 block mb-2" for="">Phone Number</label>
-                            <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
-                        </div>
-                        <div class="w-full my-3 px-2">
-                            <label class="text-md font-bold text-theme2 block mb-2" for="">Company Institution</label>
-                            <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
-                        </div>
-                        <div class="w-full my-3 px-2">
-                            <label class="text-md font-bold text-black block mb-2" for="">Promopack </label>
-                                <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm font-medium focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
-                                <option selected>I haven't decided</option>
-                                <option value="US">Alabama</option>
-                                <option value="CA">Alaska</option>
-                                <option value="FR">Arizona</option>
-                                <option value="DE">Arkansas</option>
-                                <option value="DE">California</option>
-                                <option value="DE">Colorado</option>
-                                <option value="DE">Connecticut</option>
-                                <option value="DE">Delaware</option>
-                                <option value="DE">Florida</option>
-                                <option value="DE">Georgia</option>
-                                <option value="DE">Idaho</option>
-                                <option value="DE">Hawaii</option>
-                                <option value="DE">Illinois</option>
-                                <option value="DE">Indiana</option>
-                                <option value="DE">Kansas</option>
-                                <option value="DE">Kentucky</option>
-                                <option value="DE">Louisiana</option>
-                                <option value="DE">Maine</option>
-                                <option value="DE">Maryland</option>
-                                <option value="DE">Massachusetts</option>
-                                <option value="DE">Michigan</option>
-                                <option value="DE">Minnesota</option>
-                                <option value="DE">Mississippi</option>
-                                <option value="DE">Missouri</option>
-                                <option value="DE">Montana</option>
-                                <option value="DE">Nebraska</option>
-                                <option value="DE">Nevada</option>
-                                <option value="DE">New Hhire</option>
-                                <option value="DE">New Jersey</option>
-                                </select>
-                        </div>
-                        <div class="w-full my-3 px-2">
-                            <label class="text-md font-bold text-black block mb-2" for="">Location project </label>
-                                <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm font-medium focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
-                                <option selected>--Please choose an option--</option>
-                                <option value="US">Alabama</option>
-                                <option value="CA">Alaska</option>
-                                <option value="FR">Arizona</option>
-                                <option value="DE">Arkansas</option>
-                                <option value="DE">California</option>
-                                <option value="DE">Colorado</option>
-                                <option value="DE">Connecticut</option>
-                                <option value="DE">Delaware</option>
-                                <option value="DE">Florida</option>
-                                <option value="DE">Georgia</option>
-                                <option value="DE">Idaho</option>
-                                <option value="DE">Hawaii</option>
-                                <option value="DE">Illinois</option>
-                                <option value="DE">Indiana</option>
-                                <option value="DE">Kansas</option>
-                                <option value="DE">Kentucky</option>
-                                <option value="DE">Louisiana</option>
-                                <option value="DE">Maine</option>
-                                <option value="DE">Maryland</option>
-                                <option value="DE">Massachusetts</option>
-                                <option value="DE">Michigan</option>
-                                <option value="DE">Minnesota</option>
-                                <option value="DE">Mississippi</option>
-                                <option value="DE">Missouri</option>
-                                <option value="DE">Montana</option>
-                                <option value="DE">Nebraska</option>
-                                <option value="DE">Nevada</option>
-                                <option value="DE">New Hampshire</option>
-                                <option value="DE">New Jersey</option>
-                                </select>
-                        </div>
-                        <div class="grid w-full grid-cols-2">
+                        <div class="mt-4">
+                            <div class="bg-white  shadow-sm py-5 md:py-10 flex items-center flex-wrap">
+                            <div class="w-full md:w-1/2 my-3 px-2">
+                                <label class="text-md font-bold text-theme2 block mb-2" for="">Name</label>
+                                <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+                            </div>
+                            <div class="w-full md:w-1/2 my-3 px-2">
+                                <label class="text-md font-bold text-theme2 block mb-2" for="">Upload Image</label>
+                                <input class="block w-full text-sm text-gray-900 border border-gray-300  cursor-pointer dark:text-gray-400 focus:outline-none file:mr-4 file:py-2 file:px-4
+                                file:border-0
+                                file:text-sm file:font-semibold
+                                file:bg-theme1/5 file:text-theme1
+                                hover:file:bg-theme1/10" id="file_input" type="file">
+                            </div>
+                            <div class="w-full md:w-1/2 my-3 px-2">
+                                <label class="text-md font-bold text-theme2 block mb-2" for="">Last Name</label>
+                                <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+                            </div>
+                            <div class="w-full md:w-1/2 my-3 px-2 [&_.iti]:w-full">
+                                <label class="text-md font-bold text-theme2 block mb-2" for="">Phone Number</label>
+                                <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="tel" id="phone">
+                            </div>
                             <div class="w-full my-3 px-2">
-                                <label class="text-md font-bold text-black block mb-2" for="">Is interested in * </label>
+                                <label class="text-md font-bold text-theme2 block mb-2" for="">Company Institution</label>
+                                <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+                            </div>
+                            <div class="w-full my-3 px-2">
+                                <label class="text-md font-bold text-black block mb-2" for="">Promopack </label>
                                     <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm font-medium focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
-                                    <option selected>Buy indoor installation</option>
-                                    <option value="US">Buy indoor installation</option>
-                                    <option value="CA">Buy outdoor installation</option>
-                                    <option value="FR">Buy for a live event</option>
-                                    <option value="DE">Rent for a live event</option>
-                                    
+                                    <option selected>I haven't decided</option>
+                                    <option value="US">Alabama</option>
+                                    <option value="CA">Alaska</option>
+                                    <option value="FR">Arizona</option>
+                                    <option value="DE">Arkansas</option>
+                                    <option value="DE">California</option>
+                                    <option value="DE">Colorado</option>
+                                    <option value="DE">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DE">Florida</option>
+                                    <option value="DE">Georgia</option>
+                                    <option value="DE">Idaho</option>
+                                    <option value="DE">Hawaii</option>
+                                    <option value="DE">Illinois</option>
+                                    <option value="DE">Indiana</option>
+                                    <option value="DE">Kansas</option>
+                                    <option value="DE">Kentucky</option>
+                                    <option value="DE">Louisiana</option>
+                                    <option value="DE">Maine</option>
+                                    <option value="DE">Maryland</option>
+                                    <option value="DE">Massachusetts</option>
+                                    <option value="DE">Michigan</option>
+                                    <option value="DE">Minnesota</option>
+                                    <option value="DE">Mississippi</option>
+                                    <option value="DE">Missouri</option>
+                                    <option value="DE">Montana</option>
+                                    <option value="DE">Nebraska</option>
+                                    <option value="DE">Nevada</option>
+                                    <option value="DE">New Hhire</option>
+                                    <option value="DE">New Jersey</option>
                                     </select>
                             </div>
                             <div class="w-full my-3 px-2">
-                                <label class="text-md font-bold text-black block mb-2" for="">Size * </label>
+                                <label class="text-md font-bold text-black block mb-2" for="">Location project </label>
                                     <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm font-medium focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
-                                    <option selected>9.8'× 6.6' ft</option>
-                                    <option value="US">13.1'× 6.6' ft</option>
-                                    <option value="CA">16.4'× 9.8' ft</option>
-                                    <option value="FR">16.2'× 9.8' ft</option>
-                                    <option value="DE">custom Size</option>
-                                    
+                                    <option selected>--Please choose an option--</option>
+                                    <option value="US">Alabama</option>
+                                    <option value="CA">Alaska</option>
+                                    <option value="FR">Arizona</option>
+                                    <option value="DE">Arkansas</option>
+                                    <option value="DE">California</option>
+                                    <option value="DE">Colorado</option>
+                                    <option value="DE">Connecticut</option>
+                                    <option value="DE">Delaware</option>
+                                    <option value="DE">Florida</option>
+                                    <option value="DE">Georgia</option>
+                                    <option value="DE">Idaho</option>
+                                    <option value="DE">Hawaii</option>
+                                    <option value="DE">Illinois</option>
+                                    <option value="DE">Indiana</option>
+                                    <option value="DE">Kansas</option>
+                                    <option value="DE">Kentucky</option>
+                                    <option value="DE">Louisiana</option>
+                                    <option value="DE">Maine</option>
+                                    <option value="DE">Maryland</option>
+                                    <option value="DE">Massachusetts</option>
+                                    <option value="DE">Michigan</option>
+                                    <option value="DE">Minnesota</option>
+                                    <option value="DE">Mississippi</option>
+                                    <option value="DE">Missouri</option>
+                                    <option value="DE">Montana</option>
+                                    <option value="DE">Nebraska</option>
+                                    <option value="DE">Nevada</option>
+                                    <option value="DE">New Hampshire</option>
+                                    <option value="DE">New Jersey</option>
                                     </select>
                             </div>
+                            <div class="grid w-full grid-cols-2">
+                                <div class="w-full my-3 px-2">
+                                    <label class="text-md font-bold text-black block mb-2" for="">Is interested in * </label>
+                                        <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm font-medium focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
+                                        <option selected>Buy indoor installation</option>
+                                        <option value="US">Buy indoor installation</option>
+                                        <option value="CA">Buy outdoor installation</option>
+                                        <option value="FR">Buy for a live event</option>
+                                        <option value="DE">Rent for a live event</option>
+                                        
+                                        </select>
+                                </div>
+                                <div class="w-full my-3 px-2">
+                                    <label class="text-md font-bold text-black block mb-2" for="">Size * </label>
+                                        <select id="countries" class="bg-white border border-gray-300 text-gray-900 text-sm font-medium focus:ring-gray-200 focus:border-gray-200 focus:shadow block w-full p-2.5">
+                                        <option selected>9.8'× 6.6' ft</option>
+                                        <option value="US">13.1'× 6.6' ft</option>
+                                        <option value="CA">16.4'× 9.8' ft</option>
+                                        <option value="FR">16.2'× 9.8' ft</option>
+                                        <option value="DE">custom Size</option>
+                                        
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="my-3 px-2">
+                                <button class="bg-theme1 text-md font-bold text-white px-4 py-2 md:hover:brightness-50 transition duration-150 ease-out">SUBMIT</button>
+                            </div>
+                            </div>
+                        
                         </div>
-                        <div class="my-3 px-2">
-                            <button class="bg-theme1 text-md font-bold text-white px-4 py-2 md:hover:brightness-50 transition duration-150 ease-out">SUBMIT</button>
-                        </div>
-                        </div>
-                      
                     </div>
+                        
+                </section>
+                
+            </div>
+            <div class="md:col-span-5 px-7 col-span-12">
+                <div class="text-3xl mt-12 sm:text-4xl md:text-3xl font-extrabold text-theme2 italic">
+                    Get in touch
                 </div>
-                    
-            </section>
-            
+            <div class="flex items-center my-12">
+                <div class="w-[20%] h-auto *:size-full">
+                <img src="./assets/img/email 1.svg" alt="">
+                </div>
+                <div class="flex flex-col justify-between ms-2">
+                    <div class="text-base text-theme3 font-medium">
+                        Contact email
+                    </div>
+                    <a href="#" class="text-xl font-semibold duration-300 text-theme6 hover:text-theme1">
+                        sales@techledwall.com
+                    </a>
+                </div>
+
+            </div>
+            <div class="flex items-center my-12">
+                <div class="w-[20%] h-auto *:size-full">
+                <img src="./assets/img/phone-2 1.svg" alt="">
+                </div>
+                <div class="flex flex-col justify-between ms-2">
+                    <div class="text-base text-theme3 font-medium">
+                    Call us directly
+                    </div>
+                    <a href="#" class="text-xl font-semibold duration-300 text-theme6 hover:text-theme1">
+                        (888) 398 5891
+                    </a>
+                </div>
+
+            </div>
+            <div class="flex items-center my-12">
+                <div class="w-[20%] h-auto *:size-full">
+                <img src="./assets/img/pin-marker (1) 1.svg" alt="">
+                </div>
+                <div class="flex flex-col justify-between ms-2">
+                    <div class="text-base text-theme3 font-medium">
+                        Address
+                    </div>
+                <div>
+                    <div class="font-bold text-xl"> Florida:</div>
+                    <a href="#" class="text-xl font-semibold duration-300 text-theme6 hover:text-theme1">
+                        sales@techledwall.com
+                    </a>
+                </div>
+                </div>
+
+            </div>
+                
+                
+            </div>
         </div>
-        <div class="md:col-span-5 px-7 col-span-12">
-            <div class="text-3xl mt-12 sm:text-4xl md:text-3xl font-extrabold text-theme2 italic">
-                Get in touch
-            </div>
-           <div class="flex items-center my-12">
-            <div class="w-[20%] h-auto *:size-full">
-              <img src="./assets/img/email 1.svg" alt="">
-            </div>
-             <div class="flex flex-col justify-between ms-2">
-                <div class="text-base text-theme3 font-medium">
-                    Contact email
-                </div>
-                <a href="#" class="text-xl font-semibold duration-300 text-theme6 hover:text-theme1">
-                    sales@techledwall.com
-                </a>
-             </div>
-
-           </div>
-           <div class="flex items-center my-12">
-            <div class="w-[20%] h-auto *:size-full">
-              <img src="./assets/img/phone-2 1.svg" alt="">
-            </div>
-             <div class="flex flex-col justify-between ms-2">
-                <div class="text-base text-theme3 font-medium">
-                  Call us directly
-                </div>
-                <a href="#" class="text-xl font-semibold duration-300 text-theme6 hover:text-theme1">
-                    (888) 398 5891
-                </a>
-             </div>
-
-           </div>
-           <div class="flex items-center my-12">
-            <div class="w-[20%] h-auto *:size-full">
-              <img src="./assets/img/pin-marker (1) 1.svg" alt="">
-            </div>
-             <div class="flex flex-col justify-between ms-2">
-                <div class="text-base text-theme3 font-medium">
-                    Address
-                </div>
-             <div>
-                <div class="font-bold text-xl"> Florida:</div>
-                <a href="#" class="text-xl font-semibold duration-300 text-theme6 hover:text-theme1">
-                    sales@techledwall.com
-                </a>
-             </div>
-             </div>
-
-           </div>
-            
-              
-        </div>
-      </div>
-     <!--form end  -->
 </body>
+<!--  -->
+<script src="./assets/libs/intl-tel-input-master/intl-tel-input-master/build/js/intlTelInput.min.js"></script> 
+<script>
+    const input = document.querySelector("#phone");
+        const iti = window.intlTelInput(input, {
+        // utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.3.0/build/js/utils.js",
+    });
+        window.iti = iti;
+</script>
+
 </html>
