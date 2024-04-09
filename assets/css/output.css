@@ -1190,6 +1190,10 @@ video {
   height: 4rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-3 {
   height: 0.75rem;
 }
@@ -3795,6 +3799,14 @@ video {
           backdrop-filter: none;
 }
 
+.\!transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 150ms !important;
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -5043,6 +5055,22 @@ video {
       paint-order: markers;
     }
   }
+}
+
+.\[\&\.iti\]\:w-full.iti {
+  width: 100%;
+}
+
+.\*\:\[\&\.iti\]\:w-full.iti > * {
+  width: 100%;
+}
+
+.\*\:\*\:\[\&\.iti\]\:w-full.iti > * > * {
+  width: 100%;
+}
+
+.\[\&_\.iti\]\:w-full .iti {
+  width: 100%;
 }
 
 .\[\&_\.navAnchor\.active\]\:before\:w-full .navAnchor.active::before {

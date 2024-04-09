@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./assets/css/output.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/libs/glightBox/glightbox.min.css" />
+  <link rel="stylesheet" href="./assets/libs/intl-tel-input-master/intl-tel-input-master/build/css/intlTelInput.min.css">
 </head>
 <body class="bg-[#fafafa]">
   <!-- header starts -->
@@ -171,9 +172,9 @@
                 </label>
               </div>
             </div>
-            <div class="my-4">
-              <label class="text-md font-bold text-theme2 block mb-2" for="">Phone Number</label>
-              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="text">
+            <div class="my-4 [&_.iti]:w-full">
+              <label class="text-md font-bold text-theme2 block mb-2"  for="">Phone Number</label>
+              <input class="w-full h-9 border-gray-300 focus:outline-none focus:!border-0 focus:ring-gray-200 focus:shadow ps-5 border" type="tel" id="phone">
             </div>
             <div class="my-4">
               <label class="text-md font-bold text-theme2 block mb-2" for="">Company - Institution</label>
@@ -916,6 +917,14 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./assets/js/index.js"></script>
   <script src="./assets//libs/glightBox/glightbox.min.js"></script>
+  <script src="./assets/libs/intl-tel-input-master/intl-tel-input-master/build/js/intlTelInput.min.js"></script> 
+<script>
+  const input = document.querySelector("#phone");
+    const iti = window.intlTelInput(input, {
+      // utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.3.0/build/js/utils.js",
+    });
+    window.iti = iti;
+</script>
   <script>
     var swiper = new Swiper(".heroSwiper", {
       loop: true,
@@ -925,58 +934,57 @@
       },
     });
   </script>
-    <script>
-      var swiper = new Swiper(".consultantSwiper", {
-        loop: true,
-        navigation: {
-          nextEl: ".heroNext",
-          prevEl: ".heroPrev",
-        },
-      });
-    </script>
-    <script>
-      var swiper = new Swiper(".tesimonialsSwiper", {
-        loop: true,
-        pagination: {
-        el: ".swiper-pagination",
-        },
-        breakpoints: {
-        360: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        576: {
-          slidesPerView: 1,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        992: {
-          slidesPerView: 2.6,
-          spaceBetween: 20,
-        },
-        1200: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-        1400: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
+  <script>
+    var swiper = new Swiper(".consultantSwiper", {
+      loop: true,
+      navigation: {
+        nextEl: ".heroNext",
+        prevEl: ".heroPrev",
       },
-        navigation: {
-          nextEl: ".heroNext",
-          prevEl: ".heroPrev",
-        },
-      });
-    </script>
-<script>
-    var lightboxDescription = GLightbox({
-          selector: '.glightbox',
-      });
-</script>
-
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".tesimonialsSwiper", {
+      loop: true,
+      pagination: {
+      el: ".swiper-pagination",
+      },
+      breakpoints: {
+      360: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      576: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 2.6,
+        spaceBetween: 20,
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      1400: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+      navigation: {
+        nextEl: ".heroNext",
+        prevEl: ".heroPrev",
+      },
+    });
+  </script>
+  <script>
+      var lightboxDescription = GLightbox({
+            selector: '.glightbox',
+        });
+  </script>
 </body>
 </html>
