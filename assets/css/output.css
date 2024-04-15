@@ -789,6 +789,14 @@ video {
   z-index: 50;
 }
 
+.-z-10 {
+  z-index: -10;
+}
+
+.-z-20 {
+  z-index: -20;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -1218,10 +1226,6 @@ video {
   height: 18rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-9 {
   height: 2.25rem;
 }
@@ -1354,13 +1358,13 @@ video {
   width: weird-and-invalid;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-4xl {
@@ -2714,6 +2718,21 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/02\/4-1\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/02/4-1.jpg');
 }
@@ -3119,6 +3138,18 @@ video {
   padding-top: 2rem;
 }
 
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -3359,11 +3390,6 @@ video {
 
 .tracking-wider {
   letter-spacing: 0.05em;
-}
-
-.text-\[\#0378f6\] {
-  --tw-text-opacity: 1;
-  color: rgb(3 120 246 / var(--tw-text-opacity));
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -4086,6 +4112,12 @@ video {
   overflow: hidden;
 }
 
+.before\:bg-black::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .before\:bg-theme1::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -4096,12 +4128,6 @@ video {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(43 59 96 / var(--tw-bg-opacity));
-}
-
-.before\:bg-black::before {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .before\:\[clip-path\:polygon\(48\%_67\%\2c _0\%_100\%\2c _100\%_100\%\)\]::before {
@@ -4425,6 +4451,10 @@ video {
   text-align: center;
 }
 
+.group:hover .group-hover\:visible {
+  visibility: visible;
+}
+
 .group:hover .group-hover\:block {
   display: block;
 }
@@ -4523,6 +4553,11 @@ video {
   .sm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .sm\:pb-8 {
@@ -4963,6 +4998,11 @@ video {
     padding-bottom: 4rem;
   }
 
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .lg\:pb-16 {
     padding-bottom: 4rem;
   }
@@ -4997,6 +5037,11 @@ video {
     line-height: 2.25rem;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -5024,6 +5069,11 @@ video {
 
   .xl\:pt-72 {
     padding-top: 18rem;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .xl\:text-6xl {

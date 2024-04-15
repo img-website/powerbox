@@ -413,7 +413,7 @@
             <div class="relative">
             <img class="w-full h-[590px] object-cover" src="https://techledwall.com/wp-content/uploads/2021/02/fondo2.svg" alt="">
             <div class="container sm:pb-8 pb-0 absolute md:top-16 top-6 left-2/4 -translate-x-2/4 px-10">
-                <div class="xl:text-[1.7em] lg:text-3xl md:text-3xl text-2xl font-extrabold text-theme2 text-center mb-[0.5em]">LED WALL TESTIMONIALS</div>
+                <div class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-theme4 text-center mb-[0.5em]">CHURCHES THAT TRUSTED US</div>
                 <div class="xl:text-[1.7em] lg:text-2xl md:text-xl text-lg font-bold text-theme2 text-center">Excellent</div>
                 <div class="mt-2">
                 <ul class="flex justify-center">
@@ -684,6 +684,30 @@
             </div>
         </div>
     <!-- testimonials end -->
+
+    <!-- best screen section start -->
+    <div class="py-10 sm:py-20">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-theme4 text-center mb-[0.5em]">
+                THE BEST SCREEN FOR CHURCHES
+            </div>
+            <div class="relative">
+                <img id="changableImg" src="./assets/img/best01.webp" alt="" class="w-full -z-10 object-contain relative">
+                <div class="flex items-center absolute h-full top-0 left-0 w-full z-10">
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best01.webp"></div>
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best02.webp"></div>
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best03.webp"></div>
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best04.webp"></div>
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best05.webp"></div>
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best06.webp"></div>
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best07.webp"></div>
+                    <div class="group w-full h-full  hoverBox" imgSrc="./assets/img/best08.webp"></div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- best screen section ends -->
 
     <!-- benifits section start -->
         <section class="py-8 md:py-12 lg:py-16 mx-auto max-w-7xl px-6 lg:px-8">
@@ -1406,6 +1430,17 @@
     <script src="./assets/js/index.js"></script>
     <script src="./assets/libs/intl-tel-input-master/intl-tel-input-master/build/js/intlTelInput.min.js"></script> 
 
+    <script>
+        const hoverBoxes = document.querySelectorAll('.hoverBox')
+        const changableImg = document.querySelector('#changableImg')
+
+        hoverBoxes.forEach(hoverBox=>{
+            hoverBox.addEventListener('mouseover', (e)=> {
+                const imgSrc = e.currentTarget.getAttribute('imgSrc')
+                changableImg.src = imgSrc
+            })
+        })
+    </script>
     <script>
         const input = document.querySelector("#phone");
             const iti = window.intlTelInput(input, {
