@@ -789,6 +789,10 @@ video {
   z-index: 50;
 }
 
+.z-\[1000\] {
+  z-index: 1000;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -851,6 +855,11 @@ video {
 
 .m-0 {
   margin: 0px;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx-auto {
@@ -995,6 +1004,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -1102,8 +1115,16 @@ video {
   aspect-ratio: 1.5;
 }
 
+.aspect-\[1\/\.3\] {
+  aspect-ratio: 1/.3;
+}
+
 .aspect-\[1\/\.95\] {
   aspect-ratio: 1/.95;
+}
+
+.aspect-\[1\/1\.1\] {
+  aspect-ratio: 1/1.1;
 }
 
 .aspect-\[1\/1\.2\] {
@@ -1182,6 +1203,13 @@ video {
   height: 100%;
 }
 
+.size-max {
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .\!h-auto {
   height: auto !important;
 }
@@ -1208,6 +1236,10 @@ video {
 
 .h-4 {
   height: 1rem;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .h-6 {
@@ -1274,8 +1306,21 @@ video {
   height: 100%;
 }
 
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .max-h-\[500px\] {
@@ -1360,6 +1405,28 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.\!w-20 {
+  width: 5rem !important;
+}
+
+.\!w-max {
+  width: -moz-max-content !important;
+  width: max-content !important;
 }
 
 .max-w-4xl {
@@ -1453,6 +1520,11 @@ video {
 
 .-translate-y-2\/4 {
   --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-6 {
+  --tw-translate-y: -1.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1822,6 +1894,10 @@ video {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-cols-8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -2500,6 +2576,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
 .border-e {
   border-inline-end-width: 1px;
 }
@@ -2518,6 +2598,10 @@ video {
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .border-solid {
@@ -2572,6 +2656,11 @@ video {
 .border-slate-100 {
   --tw-border-opacity: 1;
   border-color: rgb(241 245 249 / var(--tw-border-opacity));
+}
+
+.border-slate-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(226 232 240 / var(--tw-border-opacity));
 }
 
 .border-theme1 {
@@ -2656,6 +2745,11 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -2709,6 +2803,11 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/02\/4-1\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/02/4-1.jpg');
 }
@@ -2741,16 +2840,16 @@ video {
   background-image: url('https://techledwall.com/wp-content/uploads/2023/10/mobile-1.jpg');
 }
 
+.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/webp-express\/webp-images\/uploads\/2021\/02\/sanki\.jpeg\.webp\'\)\] {
+  background-image: url('https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/sanki.jpeg.webp');
+}
+
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/webp-express\/webp-images\/uploads\/2023\/10\/broadcastbanner-mobile\.jpg\.webp\'\)\] {
   background-image: url('https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/10/broadcastbanner-mobile.jpg.webp');
 }
 
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/webp-express\/webp-images\/uploads\/2021\/02\/sanki\.jpeg\.webp\'\)\] {
-  background-image: url('https://techledwall.com/wp-content/webp-express/webp-images/uploads/2021/02/sanki.jpeg.webp');
 }
 
 .from-black\/20 {
@@ -2935,6 +3034,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -3000,6 +3104,11 @@ video {
   padding-bottom: 5rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -3058,8 +3167,16 @@ video {
   padding-bottom: 12rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pe-0 {
+  padding-inline-end: 0px;
 }
 
 .pr-7 {
@@ -3945,9 +4062,35 @@ video {
   }
 }
 
+.\*\:aspect-\[1\/1\] > * {
+  aspect-ratio: 1/1;
+}
+
+.\*\:size-16 > * {
+  width: 4rem;
+  height: 4rem;
+}
+
+.\*\:size-6 > * {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .\*\:size-full > * {
   width: 100%;
   height: 100%;
+}
+
+.\*\:w-\[500px\] > * {
+  width: 500px;
+}
+
+.\*\:w-full > * {
+  width: 100%;
+}
+
+.\*\:fill-theme1 > * {
+  fill: #DC211D;
 }
 
 .\*\:object-contain > * {
@@ -3955,9 +4098,32 @@ video {
      object-fit: contain;
 }
 
+.\*\:object-cover > * {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .\*\:object-center > * {
   -o-object-position: center;
      object-position: center;
+}
+
+.\*\:pb-4 > * {
+  padding-bottom: 1rem;
+}
+
+.\*\:text-lg > * {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.\*\:font-normal > * {
+  font-weight: 400;
+}
+
+.\*\:text-gray-400 > * {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .\*\:text-white > * {
@@ -4010,6 +4176,11 @@ video {
   position: absolute;
 }
 
+.before\:inset-0::before {
+  content: var(--tw-content);
+  inset: 0px;
+}
+
 .before\:-bottom-6::before {
   content: var(--tw-content);
   bottom: -1.5rem;
@@ -4035,9 +4206,20 @@ video {
   z-index: -10;
 }
 
+.before\:size-12::before {
+  content: var(--tw-content);
+  width: 3rem;
+  height: 3rem;
+}
+
 .before\:h-12::before {
   content: var(--tw-content);
   height: 3rem;
+}
+
+.before\:h-3::before {
+  content: var(--tw-content);
+  height: 0.75rem;
 }
 
 .before\:h-36::before {
@@ -4070,6 +4252,18 @@ video {
 .before\:overflow-hidden::before {
   content: var(--tw-content);
   overflow: hidden;
+}
+
+.before\:bg-gray-200::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.before\:bg-red-400::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
 .before\:bg-theme1::before {
@@ -4199,6 +4393,11 @@ video {
   transition-duration: 500ms;
 }
 
+.hover\:-translate-y-1:hover {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:-translate-y-\[5px\]:hover {
   --tw-translate-y: -5px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -4226,14 +4425,54 @@ video {
   border-color: rgb(58 88 157 / var(--tw-border-opacity));
 }
 
+.hover\:bg-amber-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-fuchsia-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 70 239 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-lime-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(132 204 22 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-orange-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-purple-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-theme1:hover {
@@ -4560,6 +4799,10 @@ video {
     height: 20rem;
   }
 
+  .md\:h-96 {
+    height: 24rem;
+  }
+
   .md\:h-\[280px\] {
     height: 280px;
   }
@@ -4584,8 +4827,20 @@ video {
     width: 60%;
   }
 
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:items-end {
+    align-items: flex-end;
   }
 
   .md\:gap-7 {
@@ -4600,6 +4855,10 @@ video {
     background-image: url('https://techledwall.com/wp-content/webp-express/webp-images/uploads/2023/10/broadcastbanner-1536x280.jpg.webp');
   }
 
+  .md\:p-20 {
+    padding: 5rem;
+  }
+
   .md\:p-7 {
     padding: 1.75rem;
   }
@@ -4607,6 +4866,21 @@ video {
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .md\:px-5 {
@@ -4653,6 +4927,18 @@ video {
 
   .md\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .md\:pe-10 {
+    padding-inline-end: 2.5rem;
+  }
+
+  .md\:pe-16 {
+    padding-inline-end: 4rem;
+  }
+
+  .md\:pe-24 {
+    padding-inline-end: 6rem;
   }
 
   .md\:pr-14 {
@@ -4830,6 +5116,10 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
   .lg\:justify-center {
     justify-content: center;
   }
@@ -4934,13 +5224,13 @@ video {
     padding-top: 18rem;
   }
 
-  .xl\:text-\[1\.7em\] {
-    font-size: 1.7em;
-  }
-
   .xl\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .xl\:text-\[1\.7em\] {
+    font-size: 1.7em;
   }
 }
 
@@ -5055,18 +5345,6 @@ video {
       paint-order: markers;
     }
   }
-}
-
-.\[\&\.iti\]\:w-full.iti {
-  width: 100%;
-}
-
-.\*\:\[\&\.iti\]\:w-full.iti > * {
-  width: 100%;
-}
-
-.\*\:\*\:\[\&\.iti\]\:w-full.iti > * > * {
-  width: 100%;
 }
 
 .\[\&_\.iti\]\:w-full .iti {
