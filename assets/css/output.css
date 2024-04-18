@@ -1203,15 +1203,12 @@ video {
   height: 100%;
 }
 
-.size-max {
-  width: -moz-max-content;
-  width: max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
 .\!h-auto {
   height: auto !important;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-16 {
@@ -1306,21 +1303,8 @@ video {
   height: 100%;
 }
 
-.h-max {
-  height: -moz-max-content;
-  height: max-content;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-20 {
-  height: 5rem;
 }
 
 .max-h-\[500px\] {
@@ -1333,6 +1317,11 @@ video {
 
 .\!w-auto {
   width: auto !important;
+}
+
+.\!w-max {
+  width: -moz-max-content !important;
+  width: max-content !important;
 }
 
 .w-1\/2 {
@@ -1407,26 +1396,12 @@ video {
   width: 100%;
 }
 
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
+.w-\[\] {
+  width: ;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.\!w-20 {
-  width: 5rem !important;
-}
-
-.\!w-max {
-  width: -moz-max-content !important;
-  width: max-content !important;
+.w-\[300px\] {
+  width: 300px;
 }
 
 .max-w-4xl {
@@ -2803,11 +2778,6 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'https\:\/\/techledwall\.com\/wp-content\/uploads\/2021\/02\/4-1\.jpg\'\)\] {
   background-image: url('https://techledwall.com/wp-content/uploads/2021/02/4-1.jpg');
 }
@@ -3139,6 +3109,11 @@ video {
   padding-bottom: 6px;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .\!pb-8 {
   padding-bottom: 2rem !important;
 }
@@ -3225,6 +3200,10 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-left {
@@ -4087,6 +4066,10 @@ video {
 
 .\*\:w-full > * {
   width: 100%;
+}
+
+.\*\:w-\[300px\] > * {
+  width: 300px;
 }
 
 .\*\:fill-theme1 > * {
@@ -5006,6 +4989,10 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .\*\:md\:w-\[500px\] > * {
+    width: 500px;
   }
 
   .md\:hover\:-translate-y-1:hover {
